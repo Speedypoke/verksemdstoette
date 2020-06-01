@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Datasikkerhet</title>
+  <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="style/accordian.pack.js"></script>
+</head>
+
+<body onload="new Accordian('basic-accordian',5,'header_highlight');">
+  <div>
+	<nav id="navigation">
+		<a href="index.html">Hjem</a>
+		<a href="datasikkerhet.html">Datasikkerhet</a>
+		<a href="loverogregler.html">Lover og regler</a>
+		<a href="økonomi.html">Økonomi</a>
+		<a href="gronit.html">Grøn IT</a>
+		<a href="ergonomi.html">Ergonomi</a>
+	</nav>
+  </div>
+  <div id="logo"><h1>Datasikkerhet</h1></div>
+  <div id="basic-accordian" >
+    <div id="test-header" class="accordion_headings header_highlight">Hva er datasikkerhet?</div>
+    <div id="test-content">
+      <div class="accordion_child">
+        <h1>Kva er datasikkerhet?</h1>
+        <p>Datasikkerhet er tiltak for å beskytte informasjon. Det inkluderer både beskyttelse mot tap av data og mot ulovlig innsyn, misbruk eller tyveri av informasjon.</p>
+        <p>Tap av data kan skje på mange måter og vil før eller senere ramme alle datamaskinbrukere. Den vanligste årsaken er rene uhell som enten skyldes uforsiktighet eller manglende kunnskaper hos brukeren.
+			Filer blir slettet ved en feiltakelse, programmer blir avsluttet uten at arbeidet er lagret, eller eksisterende data blir overskrevet. 
+			Alt er vanlige feil, men i de fleste tilfellene er ikke skaden større enn at konsekvensene begrenser seg til litt irritasjon og ekstraarbeid.</p>
+        <h2>Hvordan beskytte seg?</h2>
+        <p>Oppdater PCen, programvaren OG operativsystemet</p>
+        <ul>
+          <li>Når det avdekkast sårbarheitar og feil i operativsystemet (f.eks. Windows, Mac) lages det oppdateringar for å utbetre feilane.</li>
+          <li>Sjekk om det finnes nye oppdateringar til ditt operativsystem.</li>
+          <li>Sett på automatisk oppdatering om det er mogleg og installer oppdateringar umiddelbart.</li>
+          <li>Oppdater programmer jamnleg og sett på automatisk oppdatering om mogleg</li>
+        </ul>
+      </div>
+    </div>
+    <div id="test1-header" class="accordion_headings">Virus</div>
+    <div id="test1-content">
+      <div class="accordion_child">
+        <h1>Datavirus</h1>
+        <p>Datavirus brukast ofte som eit samlebegrep for uønska programmar som på ein eller annan måte gjer skade på data eller overtar kontrollen over datamaskina.</p>
+        <p>Det finnes fleire ulike kategoriar av datavirus, men felles for dei er at de spres og installerast på maskina uten brukerens viten og vilje. Ein del datavirus utnytter sikkerhetshol i operativsystemar og populære programmar.</p>
+		<p>Datavirus delast ofte inn i underkategoriane ormar og trojanske hestar. Forskjellen på dei er måten dei spreiar seg på. Ein orm har ein programkode som gjer at den er i stand til å spre seg sløv, mens ein trojansk hest 
+			er betegnelsen på eit virus som skjular seg inni eit anna program og spreies når nokon lastar ned eller kopierar vertsprogrammet.</p>
+		<p>Datavirus kan vere ganske harmlause og ikkje ha annan funksjon enn å spreie seg, men dei kan og vere svært destruktive og for eksempel slette data, logge kva som gjerast på maskina, sende data til ein angripar eller gje ein angriper kontroll over maskina. 
+			Den siste metoden brukast blant anna ved koordinerte angrep mot nettstader, kvar tusenvis av maskinar deltar i angrepet utan at eigaren er klar over det.</p>
+        <h2>Antivirus</h2>
+        <p>Antivirusprogram er eit program på ein datamaskin, som forsøkjer å identifisera, motarbeida og fjerna datavirus og liknande ondsinna programvare (såkalla «malware»).</p>
+		<p>Antivirus benytter som oftest to forskjellige metoder for dette:</p>
+        <ul>
+          <li>Undersøkje (skanne) filer på datamaskinas filsystemar for å leite etter kjente virus, som gjenkjennast ved at dei står på ein virus-liste.</li>
+          <li>Identifisere mistenkelig oppførsel fra eit hvilket som helst program, som kan bety at programmet er infisert med virus.</li>
+        </ul>
+		<p>Dei fleste kommersielle antivirusprogrammar benyttar begge metodar for å gje best mogleg beskyttelse. Antivirusprogrammar er i dag ofte ein del av ein større programpakke som i tillegg kan innehalde brannmur, antisøppelpost og antispionprogramvare.</p>
+      </div>
+    </div>
+    <div id="test2-header" class="accordion_headings">Autentisering</div>
+    <div id="test2-content">
+      <div class="accordion_child">
+        <h1>Autentiseringstypar</h1>
+        <p>Autentisering er er ein prosess der ein identitet blir verifisert. Vanlegvis vil dette vere ein prosess der ein person skal identifisera seg, 
+		og den innebærar at nokon eller noko må avgjere om personen er den han seier at han er. 
+		I datasystemar innebærer autentiseringsprosessen ein bevisførsel i form av at brukaren må presentere bevis på at han er den han seier han er. </p>
+        <span class="left"><img src="style/microsoft.png" alt="example graphic" /></span>
+        <p><h2><b>En-faktor autentisering</b></h2>er ein autentisering som kun brukar ein variabel for å bekrefte identiten som f.eks passord eller PIN-kode. 
+			Dette er ansett for å vere ein svak autentisering fordi den ikkje gir god beskyttelse mot identitetstyveri. 
+        </p>
+        <span class="right"><img src="style/google.png" alt="example graphic" /></span><br>
+        <p><h2><b>To-faktor autentisering</b></h2>Ein autentisering som kombinerar to mekanismar kalles ein to-faktor autentisering (2FA). 
+		Ved å kombinere to mekanismer fra to av dei tre kategoriene, f.eks noko brukaren veit og noko brukaren har, kan man være meir sikker på at brukaren er den han utgir seg for å være. 
+		Me seier derfor at ein andre faktor er med på å styrke autentiseringa. Det er verd å vite at ein kombinasjon av f.eks ansiktsgjenkjenning og fingeravtrykk er ansett for å være ein ein-faktor autentisering, ikkje to-faktor.
+        </p>
+		<span class="left"><img src="style/lock.png" alt="example graphic" /></span>
+        <p><h2><b>Fleir-faktor</b></h2>
+		Fleir-faktor autentisering kan på ein enkel og sikker måte sikre deg mot å bli hacket og la andre få tilgang til dine data. 
+		Tjenesten tilfører påloggingen eit ekstra sikkerhetslag gjennom en ekstra faktor for å verifisera din identitet. Gjerne som ein kode på SMS.
+		Ved å kombinere tre eller fleire mekanismar kan man ytterlegare styrke autentiseringa. 
+        </p>
+		<br><br><h1>Passord</h1>
+        <p>Den mest vanlege måten å verifisere ein brukers identitet er i dag at brukaren må presentere ein brukernavn/passord kombinasjon som sammanliknast med noko som er lagra i ein brukerdatabase eller liknande.</p>
+        <p>Denne autentiseringsmekanismen har mange svakheitar som blant anna gjer at den aleine ikkje ansees å være tilstrekkeleg for å få tilgang til sensitive data.</p>
+        <ul>
+          <li>Passord er lett å gjette</li>
+          <li>Passord kan være lett å stjele</li>
+		  <li>Passord er lett å glemme</li>
+        </ul>
+		<p>For å forhindre at folk deler passord med kvarandre er den generelle anbefalingen i dag å kreve lange passord, gjerne formulert som setninger i stedet for komplekse passord. I tillegg er det anbefalt at det skal være så lett som mulig for brukeren å opprette nye passord.</p>
+      <h2>Biometrisk passord</h2>
+		I dei siste årene har biometriske autentiseringsmekansimer blitt meir vanlig i verda. I dag er det ikkje uvanleg med mobiltelefonar som tilbyr autentisering ved hjelp av fingeravtrykk eller ansiktsgjenkjenning. 
+		Biometrisk autentisering gir i seg selv ikke høyere autentiseringsstyrke enn en brukernavn/passord kombinasjon, men har mange fordeler. 
+		Biometriske mekanismer er blant annet mindre krevende for brukeren ettersom biometrisk identifikasjon er basert på noko ein er og ikkje noko ein må huske eller ha med seg.
+	  </div>
+    </div>
+    <div id="test3-header" class="accordion_headings">Typar truslar</div>
+    <div id="test3-content">
+      <div class="accordion_child">
+        <p>Risikoen for dataangrep blir stadig større, og angrepene stadig mer avanserte, det er derfor viktig at din IT-sikkerhet er oppdatert til enhver tid.</p>
+        <h1>DMZ</h1>
+			<p>I IKT-sammenheng brukes benevnelsen demilitarisert sone (DMZ) om en del av en virksomhets nettverk som brukere utenfor virksomheten kan få tilgang til, men som er skilt fra resten av virksomhetens nettverk med en sikkerhetsbarriere.</p>
+			<span class="left"><img src="style/dmz.png" alt="example graphic" /></span>
+		<h2>Phishing</h2>
+			<p> Angrepet forsøker å lure deg til å gje fra deg sensitiv og hemmeleg informasjon. Eksemplar på dette kan vere at du får ein e-post som tilsynelatende ser ut som at den er fra banken din som ber deg om å logge inn grunnet oppdateringer i programvaren. 
+			Du følger en link der siden du havner på er helt lik som siden til banken din. Når du derimot logger inn skjer det ikke annet enn at du har gitt fra deg informasjonen din.</p>
+		<h1>ID tjuveri</h1>
+			<p>Identitetstyveri er når nokon skaffar seg, besittar, overførar, benyttar eller fremstår som rette innehaver av eit identifikasjonsbevis eller personopplysningane til ein person for å begå økonomisk svindel, bedrageri eller annen kriminalitet.</p>
+			<p>Reint praktisk kan eit identitetstyveri for eksempel være å kjøpe varer, åpne ein bankkonto, registrere eit telefonabonnement, eller søke om kredittkort eller lån ved å bruke ein annens identitet enn sin egen.</p>
+		<h2>Hacking</h2>
+			<p>Hacking betyr å jobbe seg rundt begrensinger og finne snarveier og løsninger innen et felt, ofte forbundet med dataprogrammering.</p>
+			<p>Hacking kan være ufarlig, og en hacker kan forsøke noe så uskyldig som å endre fargene på Google-logoen i sin egen nettleser for sin egen mestringsfølelse eller bare for gøy.
+			Men hacking er ofte forbundet med datakriminalitet, og snarveiene en hacker tar kan skade andre. Innen hacker-miljøer blir en som driver med ulovlig hacking noen ganger betegnet som en Cracker eller en Black Hat.</p>
+	  <video width="320" height="240" controls>
+		<source src="hackingvideo.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	  </div>
+    </div>
+    <div id="test4-header" class="accordion_headings">Kjelder</div>
+    <div id="test4-content">
+      <div class="accordion_child">
+        <h1>Kjelder</h1>
+		<p><a href="https://www.nhn.no/helseid/grunnleggende-kunnskap/autentisering/">Norsk Helsenett</a></p>
+		<p><a href="https://www.datatilsynet.no/regelverk-og-verktoy/sporsmal-svar/Informasjonssikkerhet-hos-virksomheter/nar-er-det-krav-om-sterkere-autentisering/">Datatilsynet</a></p>
+		<p><a href="https://snl.no/datasikkerhet">SNL</a></p>
+		<p><a href="https://ndla.no/nb/subjects/subject:25/topic:1:193107/topic:1:193135/resource:1:124818">NDLA</a></p>
+		<p><a href="https://www.youtube.com/watch?v=vhRScF7uwMA">Youtube</a></p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Laget av Mathias Sævdal Bere | 11.05.2020 | <a href="../index.html">Tilbake til hovudside</a>
+  </div>
+</body>
+</html>
